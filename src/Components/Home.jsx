@@ -9,6 +9,8 @@ import logo3 from './Assets/logo3.png';
 import logo4 from './Assets/logo4.png';
 import logo5 from './Assets/logo5.png';
 import pcbg from './Assets/pcbg.jpg';
+import person1 from './Assets/person1.jpg';
+import person2 from './Assets/person2.jpg';
 import fb from './Assets/icons8-facebook.svg';
 import discord from './Assets/icons8-discord.svg';
 import twitter from './Assets/icons8-twitter.svg';
@@ -61,6 +63,57 @@ export default class Home extends Component {
         <div className='techsociety_img'>
           <img src={pcbg} />
         </div>
+        </div>
+
+        <div className='testimonial_container'>
+        <div className='testimonail_title'>
+          <h2>Loved by iconic Companies.</h2>
+        </div>
+
+        <div className='testimonail_content'>
+          <img src={person1} />
+          <div className='cols2content'>
+            <div className='testi_col1'>
+            <p>Teamway is simply a great solution, quick to get started and find talent, easy to onboard and a perfect solution when you need real flexibility.</p>
+            </div>
+            <div className='testi_col2'>
+            <p><b>Mathias Hermansen</b></p>
+            <p>Co-Founder & CEO, GamerPay</p>
+            </div>
+          </div>
+          <hr />
+          <div className='percentagecontent'>
+          <div>            
+          </div>
+          <div>
+          <h2>100%</h2>
+          <span className='smallpsize'>match rate</span>            
+          </div>
+          </div>
+        </div>
+
+        <div className='testimonail_content'>
+          <img src={person2} />
+          <div className='cols2content'>
+            <div className='testi_col1'>
+            <p>If you too are finding it difficult and time consuming to hire strong engineers, you should try Teamway. super intuitive platform, incredible talent and speed.</p>
+            </div>
+            <div className='testi_col2'>
+            <p><b>Dennis Green-Lieber</b></p>
+            <o>Head of Product, Neurons</o>
+            </div>
+          </div>
+          <hr />
+          <div className='percentagecontent'>
+          <div>            
+          </div>
+          <div>
+          <h2>7X</h2>
+          <span className='smallpsize'>faster than traditional hiring.</span>            
+          </div>
+          </div>
+        </div>
+
         </div>
 
         <div className='footer_container'>
