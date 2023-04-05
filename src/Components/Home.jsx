@@ -17,6 +17,10 @@ import twitter from './Assets/icons8-twitter.svg';
 import linkedin from './Assets/icons8-linkedin-2.svg';
 import article from './Assets/icons8-articles-50.png';
 import arrow from './Assets/icons8-right-arrow-48.png';
+import face1 from './Assets/face1.jpg';
+import face2 from './Assets/face2.jpg';
+import faces3 from './Assets/faces3.jpg';
+import face4 from './Assets/face4.jpg';
 
 export default class Home extends Component {
   render() {
@@ -114,6 +118,55 @@ export default class Home extends Component {
           </div>
         </div>
 
+        </div>
+
+        <div className='ledby_container'>
+          <div className='ledby_title'>
+            <h2>Led by a curated society of professionals.</h2>
+            <p>Teamway is growing fast and we're adding highly skilled builders and teams to the decentralised society everyday.</p>
+          </div>
+
+          <div className='mainledby_container'>
+            <div className='firstcol_container'>
+              <div>
+               <img src={face1} />
+              </div>
+              <div className='numbersection'>
+              <p>Members</p>
+              <p className='numbersize'>627</p>
+              </div>
+            </div>
+            <div className='secondcol_container'>
+              <img src={face2} />
+            </div>
+            <div className='thirdcol_container'>
+            <div className='thirdfirstcol_container'>
+              <div className='numbersection'>
+              <p>Members</p>
+              <p className='numbersize'>627</p>
+              </div>
+              <div>
+               <img src={face1} />
+              </div>
+            </div>
+            <div className='wideimg_container'>
+              <img src={faces3}/>
+            </div>
+            </div>
+            <div className='secondcol_container'>
+              <img src={face4} />
+            </div>
+          </div>
+        </div>
+
+        <div className='applybtn_container'>
+          <p>The future of work starts here.</p>
+
+          <div className='mainbtnsection'>
+            <hr/>
+            <button className='btn activebtn'>Apply as member</button>
+            <hr/>
+          </div>
         </div>
 
         <div className='footer_container'>
