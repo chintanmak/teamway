@@ -1,3 +1,4 @@
+@media screen and (min-width: 769px) {
 .btn{
     border: 2px solid black;
     border-radius: 1rem;
@@ -16,6 +17,7 @@
     color: white;
 }
 
+
 .width30rem{
     width: 30rem;
 }
@@ -23,4 +25,34 @@
 .smallpsize{
     font-size: 1rem;
     font-weight: 200;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .btn{
+        border: 2px solid black;
+        border-radius: 1rem;
+        background-color: white;
+        color: black;
+        height: 2rem;
+        font-weight: 600;
+        font-size: 1rem;
+        padding: 1rem;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .activebtn{
+        background-color: black;
+        color: white;
+    }
+    
+    
+    .width30rem{
+        // width: 30rem;
+    }
+    
+    .smallpsize{
+        font-size: 1rem;
+        font-weight: 200;
+    }
 }

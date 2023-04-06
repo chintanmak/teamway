@@ -226,7 +226,7 @@ export default class Home extends Component {
           </div>
 
           <div className='cols'>
-            <h3>Companies</h3>
+            <h3>Members</h3>
             <p>Why Teamway?</p>
             <p>How we compare</p>
             <p>Application process</p>
@@ -234,7 +234,7 @@ export default class Home extends Component {
           </div>
 
           <div className='cols'>
-            <h3>Companies</h3>
+            <h3>Society</h3>
             <p>The new work era</p>
             <p>TMW Token</p>
             <p>Roles</p>
@@ -242,7 +242,7 @@ export default class Home extends Component {
           </div>
 
           <div className='cols'>
-            <h3>Companies</h3>
+            <h3>General</h3>
             <p>About</p>
             <p>Articles</p>
             <p>F.A.Q.</p>
